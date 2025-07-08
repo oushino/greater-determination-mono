@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Greater Determination Mono";
+  src: url("GreaterDeterminationMono.woff2") format("woff2"),
+       url("GreaterDeterminationMono.woff")  format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply it everywhere: */
+* {
+  font-family: "Greater Determination Mono", monospace !important;
+}
